@@ -1,2 +1,2 @@
-# code-test-preparation
-preparation for code test
+# algorithmic coding test
+This repository provides basic algorithms problems and personal answers. 
