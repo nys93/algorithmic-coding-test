@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf07c992-996f-4fb5-b85d-c0a74470b134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hash/level1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/level1/solution.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622988309564</updated>
       <workItem from="1622988313695" duration="954000" />
-      <workItem from="1633267954216" duration="5344000" />
+      <workItem from="1633267954216" duration="5858000" />
     </task>
     <servers />
   </component>
