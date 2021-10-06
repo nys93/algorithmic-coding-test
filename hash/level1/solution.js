@@ -1,17 +1,20 @@
+//샘플 예제
+const participant = ["mislav", "stanko", "mislav", "ana"];
+const completion = ["stanko", "ana", "mislav"];
 
-let participants = ["leo", "kiki", "eden"];
-//1 <= participants <= 100,000
-let completion = ["eden", "kiki"];
-//completion < participants - 1
-const answer = solution(participants, completion);
+const answer = solution(participant, completion);
 
 console.log(answer);
 
-function solution(participants, completion) {
+function solution(participant, completion) {
 
-    let answer = participants.concat(completion)
-        .filter(item => !participants.includes(item) || !completion.includes(item));
+    //값으로 순서 정렬
+    participant.sort();
+    completion.sort();
 
-    return answer;
+    for(let i = 0; i < participant.length; i++) {
+        if(participant[i] !== completion[i]) return participant[i];
+    }
+
 }
 
