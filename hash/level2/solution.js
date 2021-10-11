@@ -1,4 +1,4 @@
-//샘플 예제
+//sample
 const clothes = [["yellowhat", "headgear"], ["bluesunglasses", "eyewear"], ["green_turban", "headgear"]];
 const answer = solution(clothes);
 
@@ -8,10 +8,10 @@ function solution(clothes) {
 
    let answer = 1;
 
-   //의상종류
+   // sorts of clothes
    let categories = {};
    for(let cloth of clothes){
-       //옷 종류별 카운트
+       //count by category
        if(categories[cloth[1]]){
            categories[cloth[1]]++;
        }else{

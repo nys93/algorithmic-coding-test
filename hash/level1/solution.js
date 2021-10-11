@@ -1,4 +1,4 @@
-//샘플 예제
+// example
 const participant = ["mislav", "stanko", "mislav", "ana"];
 const completion = ["stanko", "ana", "mislav"];
 
@@ -8,7 +8,7 @@ console.log(answer);
 
 function solution(participant, completion) {
 
-    //값으로 순서 정렬
+    //sort by value
     participant.sort();
     completion.sort();
 
