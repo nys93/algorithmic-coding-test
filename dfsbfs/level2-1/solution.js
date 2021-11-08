@@ -10,8 +10,6 @@ function solution(numbers, target) {
     dfs(0, 0);
 
     function dfs(index, sum) {
-        console.log("index: " + index)
-        console.log("sum: " + sum)
         if(index === numbers.length) {
             if (sum === target) {
                 answer++;
